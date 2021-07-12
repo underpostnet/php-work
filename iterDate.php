@@ -21,6 +21,8 @@ foreach ($data_respira as $data) {
  $fecha->setTimestamp($data["time"]/1000);
  var_dump($fecha);
 
+ $fecha->format('Y-m-d H:i:s');
+
 
 
 }
