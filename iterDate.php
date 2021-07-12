@@ -29,8 +29,6 @@ foreach ($data_respira as $data) {
 
 echo boolval(true) ? 'true' : 'false';
 
-/*
-
 
 object(DateTime)#1 (3) {
 ["date"]=>
