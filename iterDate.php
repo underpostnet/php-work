@@ -25,4 +25,26 @@ foreach ($data_respira as $data) {
 
 }
 
+/*
+
+echo boolval(true) ? 'true' : 'false';
+
+/*
+
+
+object(DateTime)#1 (3) {
+["date"]=>
+string(26) "2021-07-11 18:42:51.000000"
+["timezone_type"]=>
+int(3)
+["timezone"]=>
+string(10) "US/Pacific"
+}
+
+
+
+*/
+
+
+
  ?>
