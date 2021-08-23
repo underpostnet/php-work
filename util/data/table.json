@@ -1,0 +1,25 @@
+[{
+  "Trabajador": "María Luisa Rojas",
+  "Horario": "8 am a 3pm",
+  "Departamento": "Producción"
+},
+{
+  "Trabajador": "José Pérez Márquez",
+  "Horario": "3 pm a 10 pm",
+  "Departamento": "Seguridad"
+},
+{
+  "Trabajador": "Catalina Donoso Correa",
+  "Horario": "10 pm a 6 am",
+  "Departamento": "Producción"
+},
+{
+  "Trabajador": "Raúl Lavín",
+  "Horario": "8 am a 3 pm",
+  "Departamento": "Producción"
+},
+{
+  "Trabajador": "Jorge Luis Venegas",
+  "Horario": "3 pm a 10 pm",
+  "Departamento": "Logística"
+}]
