@@ -14,8 +14,14 @@ foreach ($data_respira as $data) {
  echo "\n";
 
  //current timestamp * 1000 para JS
- echo time();
+ echo time()*1000;
  echo "\n";
+
+
+ // string fomat
+ $date = new DateTime();
+ echo $date->format('Y-m-d H:i:s');
+
 
  $fecha = new DateTime();
  $fecha->setTimestamp($data["time"]/1000);
