@@ -12,6 +12,8 @@ $file = fopen('./test.json', "w");
 fwrite($file, json_encode($json, JSON_PRETTY_PRINT));
 fclose($file);
 
+// json_encode($data,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
+
 
 
 
