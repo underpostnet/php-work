@@ -38,8 +38,8 @@ foreach (explode("\r\n", file_get_contents($csvPath)) as $row) {
               '".$dataRow[0]."',
               '".$dataRow[1]."',
               '".$dataRow[2]."',
-              ".$dataRow[3].",
-              ".$dataRow[4].",
+              ".str_replace('.', '', $dataRow[3]).",
+              ".str_replace('.', '', $dataRow[4]).",
               ".$dataRow[5]."
             );";
             echo $sql;
