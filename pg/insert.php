@@ -15,6 +15,42 @@ password={$dbConfig->password}
 ");
 
 
+$csvPath = "./c4_bbdd.csv";
+$separator = ",";
+
+
+
+
+$indRow = 0;
+$headers = null;
+foreach (explode("\r\n", file_get_contents($csvPath)) as $row) {
+  $dataRow = explode($separator, $row);
+  if($indRow == 0){
+    $headers = $dataRow;
+  }else{
+    if(count($headers)==count($dataRow)){
+
+
+      // consulta
+      $sql =
+      "INSERT INTO equipos (id, marca, modelo, anio, costo, precioventa, cantidad)
+       VALUES (DEFAULT,
+              '".$dataRow[0]."',
+              '".$dataRow[1]."',
+              '".$dataRow[2]."',
+              ".$dataRow[3].",
+              ".$dataRow[4].",
+              ".$dataRow[5]."
+            );";
+            echo $sql;
+            echo "\n";
+       $result = pg_query($dbconn, $sql);
+
+
+    }
+  }
+  $indRow++;
+}
 
 
 pg_close($dbconn);
