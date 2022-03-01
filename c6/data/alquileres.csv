@@ -1,0 +1,11 @@
+id,id_auto,id_cliente,fecha,descripcion,cantidad_dias,costo_diario
+1,2,4,01-09-2019,Uso Séptima Región,2,140.000
+2,1,3,04-09-2019,Uso Región Metropolitana,3,120000
+3,3,1,08-09-2019,Uso Cuarta Región,1,180000
+4,4,2,01-10-2019,Uso Séptima Región,2,170000
+5,2,5,02-10-2019,Uso Quinta Región,4,140000
+6,8,3,12-10-2019,Uso Región Metropolitana,1,190000
+7,5,4,02-11-2019,Uso Región Metropolitana,3,270000
+8,8,1,04-11-2019,Uso Quinta Región,4,190000
+9,7,2,06-12-2019,Uso Region Metropolitana,5,160000
+10,6,1,07-12-2019,Uso Región Metropolitana,1,250000
